@@ -1,13 +1,17 @@
-Testing Project for **Inserati aici numele aplicatiei pe care o testati**
+Testing Project for www.douglas.ro
 The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application
 
-Application under test: Inserati aici numele aplicatiei pe care o testati
+Application under test: www.douglas.ro
 
 Tools used: Jira, Zephyr Squad.
 
 Functional specifications:
-The below story (daca aveti mai multe scrieti stories) was created in Jira and describes the functional specifications of the "nume_modul" module, for which the final project is performed upon.
+The below stories were created in Jira and describes the functional specifications of the "nume_modul" module, for which the final project is performed upon.
 
+  1. NRTT-14 Pentru site-ul www.douglas.ro, doresc sa imi creez cont nou.
+  2. NRTT- 13 Pe site-ul "www.douglas.ro" doresc sa pot selecta un anumit parfum de dama, un anumit brand, o anumita clasificare si un anumit pret.
+
+  
 inserati aici fie poza cu story-ul / story-urile daca aveti mai putine, dar daca aveti mai mult de doua recomand sa descarcati story-urile din jira si sa le incarcati ca fisier
 
 Here you can find the release that was created for this project:
@@ -25,37 +29,68 @@ The plan identifies the items to be tested, the features to be tested, the types
 1.1.1. Roles asigned to the project and persons allocated
 (numele persoanelor pot sa fie fictive, doar sa treceti numele vostru ca si tester)
 
-Project manager
-Product owner
-Software developer
-QA Engineer
+Project manager - Sandu Marian
+Product owner -  Oprea Crstina
+Software developer - Ungur Mircea
+QA Engineer - Ros Ioana Nicoleta
+
 1.1.2 Entry criteria defined
 (enumerati aici toate criteriile de intrare pe care le-ati definit pentru proiectul vostru)
+1."PC Desktop / Laptop"
+2.Operating Sistem "Windows 10 Home".
+3.web browser "Google Chrome (Version 122.0.6261.95)"
+4.The user should have access to the website www/douglas.ro
+5.The user should be logged in with the existing user credentials email “nicoletaros@yahoo.com” and password “RIN1987”.
 
 1.1.3 Exit criteria defined
 (enumerati aici toate criteriile de iesire pe care le-ati definit pentru proiectul vostru)
+1. Stability and Performance:
+   - The web page should be stable and function without major errors or crashes.
+   - Page load time should be under 3 seconds for each page.
+
+2. Browser Compatibility:
+   - The web page should be compatible with the latest versions of Google Chrome, Mozilla Firefox, and Microsoft Edge.
+   - User interface should display and function properly on the latest versions of mobile browsers.
+
+3. Security:
+   - The web page should be protected against known security vulnerabilities such as SQL injections and XSS.
+   - All HTTP requests should be encrypted using HTTPS.
+
+4. Web Standards Compliance:
+   - The web page should follow the latest HTML and CSS standards, ensuring it's built using modern web technologies.
+   - The website should be accessible to people with disabilities, meeting the accessibility requirements.
+
+5. Functionality:
+   - All key functionalities such as the contact form and search functionality should work as per specifications.
+   - Internal and external links should lead to the correct destination and be valid.
 
 1.1.4 Test scope
 Tests in scope:
-(descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)
+
+(descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc
+1).Testarea functionalitatii sectiunilor:  "Accesare buton parfum dama", "Verificare Lista de magazine”, “Accesare parfum Alma aflat la reducere” și “Accesare subcategorie preturi” for a eMAG Registered user and a Non-registered user. 
+2).Testarea functionalitatii butonului “Log in” cu credentialele corecte 
+
 
 Tests not in scope:
 (descrieti aici toate testele pe care NU intentionati sau nu puteti sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)
-1.Testing the functionalities of the sections: "Genius Deals", "Genius", "Rabla", "Cardul cu milioane de idei" and "eMAG Help".
-2.Testing the functionalities of the sections above via Mobile App "eMAG".
+1.Testarea functionalitatii sectiunilor: "Parfumuri barbati", "Ingrijire faciala", "Promotii". 
+
 
 1.1.5 Risks detected
 Project risks:
-1.Low Budget risk.
-2.New team members.
-3.Lack of communication between teams.
-4.Hardware not corresponding to software testing needs 
+
+1.Risk de buget redus.
+2.Risc din lipsa competentei echipei.
+3.Riscul ca cerintele produsului sa fie neclar, sa se schimbe pe parcurs
+4.Risc de a ignora amenintarile aparute dea lungul testarii
+5.Riscul calitati scazute pentru produsul testat
 
 Product risks:
 (enumerati aici toate riscurile de produs pe care le-ati identificat pentru proiectul vostru)
-1. Product not corresponding to clints needs.
-2. Website not User-friednly/ too complicated for the client.
-3. Functionality problems.
+1. Risc de a nu exista cerere pe piata
+2. Riscul ca produsul sa nu fie accesibil si persoanelor cu dezabilitati
+3. Riscul de performanta scazuta a aplicatiei.
 
 1.1.6 Evaluating entry criteria
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
@@ -75,13 +110,13 @@ Functional test cases were created in Zephyr Squad based on the analysis of the 
 
 1.5 Test Implementation
 The following elements are needed to be ready before the test execution phase begins:
+Planul de Testare, Cazurile de Testare,Datele de Testare, Mediul de Testare,Instrumentele de Testare, Documentația de Testare si Alocarea Resurselor.
 
-(inserati lista de elemente care sunt evaluate in etapa de implementare)
 
 1.6. Test Execution
 Test cases are executed on the created test Cycle summary: (Ad hoc)
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: (inserati aici fisierul cu bug-urile pe care le-ati identificat)
+Bugs have been created based on the failed tests. The complete bug reports can be found here: (inserati aici fisierul cu bug-urile pe care le-ati identificat) 
 
 The following is a summary of the bugs that have been found (inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)
 
@@ -93,10 +128,14 @@ The traceability matrix was generated and can be found here: (inserati aici fie 
 
 Test execution chart was generated and can be found below.
 
-(inserati aici raportul de executie generat din jira din sectiunea de dashboards)
+(inserDupă fixarea defectelor se vor efectua retestarea și testarea de regresieati aici raportul de executie generat din jira din sectiunea de dashboards)
 
-The final report shows that a number (inserati numarul de teste) tests have failed of a total of (inserati numarul de teste)
+The final report shows that a number (0) tests have failed of a total of (10)
 
-A number of (inserati numarul de bug-uri) total bugs were found, from which the priority is: (inserati numarul de bug-uri) are high and (inserati numarul de bug-uri) are medium.
+A number of (2) total bugs were found, from which the priority is: (1) are high and (1) are medium.
 
-(inserati aici o concluzie generala a testarii care sa cuprinda cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc.)
+Proiectul de testare a fost realizat cu ajutorul tool-ului Jira.Contine 2 story-uri, ambele pentru site-ul  www.douglas.ro  primul avand ca si cerinta  selectarea un anumit parfum de dama, un anumit brand, o anumita clasificare si un anumit pret iar cel de al-2-lea avand cerinta creerii unui cont nou. Au fost create 10 teste, toate au fost executate in proportie de 100%.
+Din cele 2 bug-uri identificate, prioritățile lor sunt 1- medium si 1 high. Defectele raportate nu au fost încă fixate și retestate.
+Se recomanda ca pana la remedierea bug-ului NRTT-31: "Sistemul nu returneaza eroare pentru: Se verifica pentru site-ul "www.douglas.ro" conectarea cu credentiale gresite" produsul sa nu fie lansat.
+ După fixarea defectelor se vor efectua retestarea și testarea de regresie.
+
